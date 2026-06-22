@@ -81,3 +81,7 @@ Kết quả kiểm định Chi-square (với P-value < 0.05) khẳng định cá
 * `data_raw.csv`: File csv chứa dữ liệu
 * `Churn_Customer.pdf`: File pdf chứa báo cáo phân tích
 * `Churn_Customer.md`: file Readme giới thiệu dự án
+# Thứ tự thực hiện 
+1. `EDA.ipynb`
+2. `training_model.ipynb`
+3. `clustering.ipynb`
