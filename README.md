@@ -72,15 +72,15 @@ Kết quả kiểm định Chi-square (với P-value < 0.05) khẳng định cá
 
 
 # 📁 Các file có trong dự án này
-* `EDA.ipynb`: File chứa code phân tích khám phá dữ liệu
-* `training_model.ipynb`:  File chứa code tuning model
-* `clustering.ipynb`: File chứa code dự đoán tỷ lệ churn và kiểm định chiến dịch 
-* `best_lr_model.pkl`: File mô hình Logistic Regression tuned
-* `chart_style.py`: Hàm dùng để chỉnh màu sắc và phong cách biểu đồ 
-* `data_pipeline.py`: Hàm tiền xử lý dữ liệu và gọi data
-* `data_raw.csv`: File csv chứa dữ liệu
-* `Churn_Customer.pdf`: File pdf chứa báo cáo phân tích
-* `README.md`: file Readme giới thiệu dự án
+* `EDA.ipynb`: File notebook dùng để phân tích, trực quan hóa và khám phá các đặc trưng ban đầu của tập dữ liệu.
+* `training_model.ipynb`:  File notebook thực hiện việc huấn luyện, thử nghiệm và tối ưu hóa (tuning) các siêu tham số cho mô hình dự báo.
+* `clustering.ipynb`:File notebook chứa mã nguồn phân cụm khách hàng để dự đoán tỷ lệ rời bỏ (churn) và đánh giá hiệu quả của các chiến dịch tác động. 
+* `best_lr_model.pkl`: Tập tin lưu trữ mô hình hồi quy Logistic (Logistic Regression) đã được huấn luyện và tối ưu hóa hoàn chỉnh 
+* `chart_style.py`: Định nghĩa các hàm cấu hình giao diện, màu sắc và phong cách thiết kế đồng bộ cho các biểu đồ trong dự án.
+* `data_pipeline.py`: Chứa các hàm xử lý tự động từ bước thu thập, làm sạch cho đến tiền xử lý dữ liệu thô
+* `data_raw.csv`: Tệp tin định dạng CSV lưu trữ toàn bộ dữ liệu gốc chưa qua xử lý của dự án
+* `Churn_Customer.pdf`: Báo cáo hoàn chỉnh bằng file PDF tổng hợp các kết quả phân tích, thông tin chuyên sâu và đề xuất về tình trạng rời bỏ của khách hàng.
+* `README.md`: Tài liệu hướng dẫn bằng ngôn ngữ Markdown giới thiệu tổng quan về mục tiêu, cấu trúc và cách khởi chạy dự án.
 # Thứ tự thực hiện 
 1. `EDA.ipynb`
 2. `training_model.ipynb`
