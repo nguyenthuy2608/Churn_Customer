@@ -16,7 +16,8 @@ Bước 1: Khám Phá Dữ Liệu (EDA)
 
 * Trực quan hóa phân phối đơn/đa biến **(Univariate/Bivariate Analysis)** và đa biến **(Multivariate/Scatterplot Matrix)** nhằm phát hiện các biến tương quan mạnh với hành vi rời đi của khách hàng.
 
-* Thực hiện **Encode** các biến phân loại và **Scale** dữ liệu chuẩn hóa phục vụ mô hình toán học.
+![alt text](eda.png)
+
 
 Bước 2: Xây Dựng & Tối Ưu Mô Hình Dự Đoán (Predictive Modeling)
 
@@ -69,7 +70,13 @@ Kết quả kiểm định Chi-square (với P-value < 0.05) khẳng định cá
   * Nhóm nhận cả hai chiến dịch đạt tỷ lệ churn là **69.22%**. Mặc dù kết quả này vẫn tốt hơn việc không làm gì (nhóm Control - 77.55%), nhưng lại **kém hiệu quả hơn rõ rệt** so với việc chỉ áp dụng đơn lẻ chiến dịch thúc đẩy giao dịch Strategy 1 (64.72%).
   * *Bài học kinh nghiệm:* Việc dồn dập gửi quá nhiều thông báo hoặc ép khách hàng thực hiện quá nhiều điều kiện khuyến mãi cùng một lúc dễ gây tác dụng ngược, làm khách hàng cảm thấy bị làm phiền, từ đó giảm hiệu suất giữ chân.
 
+### 3. Chương trình khách hàng thân thiết 
 
+![alt text](loyal-1.png)
+
+### 4. Chiến dịch giữ chân khách hàng 
+
+![alt text](churn.png)
 
 # 📁 Các file có trong dự án này
 * `EDA.ipynb`: File notebook dùng để phân tích, trực quan hóa và khám phá các đặc trưng ban đầu của tập dữ liệu.
