@@ -16,7 +16,7 @@ Bước 1: Khám Phá Dữ Liệu (EDA)
 
 * Trực quan hóa phân phối đơn/đa biến **(Univariate/Bivariate Analysis)** và đa biến **(Multivariate/Scatterplot Matrix)** nhằm phát hiện các biến tương quan mạnh với hành vi rời đi của khách hàng.
 
-![alt text](eda.png)
+![alt text](figures/eda.png)
 
 
 Bước 2: Xây Dựng & Tối Ưu Mô Hình Dự Đoán (Predictive Modeling)
@@ -46,18 +46,18 @@ Bước 3: Thiết Kế Thử Nghiệm **A/B Testing**
 ### 1. Hiệu năng Mô hình Dự đoán
 * **Mô hình Random Forest Tuned:** Đạt hiệu năng vượt trội với điểm Cross-validation AUC đạt **0.88**. 
 
-![alt text](image-2.png)
+![alt text](figures/image-2.png)
 * **Mô hình Logistic Regression Tuned:** Sau khi được tối ưu hóa lại ngưỡng phân loại, mô hình đã cải thiện đáng kể so với phiên bản gốc:
   * *Accuracy (Độ chính xác tổng thể):* Tăng từ 76.21% lên **81.19%**.
   * *Precision (Độ chính xác phân loại):* Tăng từ 38.31% lên **44.42%**.
   * *Recall (Khả năng bắt trúng khách churn):* Giữ ở mức ổn định cao, giúp tối ưu hóa điểm F1-score tổng thể và hạn chế việc bỏ sót khách hàng sắp rời bỏ.
 
-![alt text](image-1.png)
+![alt text](figures/image-1.png)
 
 ### 2. Hiệu quả Chiến dịch Giữ chân khách hàng (A/B Testing)
 Kết quả kiểm định Chi-square (với P-value < 0.05) khẳng định các chiến dịch Marketing có tác động làm thay đổi rõ rệt tỷ lệ churn thực tế của người dùng:
 
-![alt text](image.png)
+![alt text](figures/image.png)
 
 * **Strategy 1 (Thúc đẩy giao dịch) - Chiến dịch xuất sắc nhất:**
   * Giúp kéo giảm tỷ lệ rời bỏ thực tế từ **77.55%** (ở nhóm Control không tác động) xuống chỉ còn **64.72%**.
@@ -72,11 +72,11 @@ Kết quả kiểm định Chi-square (với P-value < 0.05) khẳng định cá
 
 ### 3. Chương trình khách hàng thân thiết 
 
-![alt text](loyal-1.png)
+![alt text](figures/loyal-1.png)
 
 ### 4. Chiến dịch giữ chân khách hàng 
 
-![alt text](churn.png)
+![alt text](figures/churn.png)
 
 # 📁 Các file có trong dự án này
 * `EDA.ipynb`: File notebook dùng để phân tích, trực quan hóa và khám phá các đặc trưng ban đầu của tập dữ liệu.
